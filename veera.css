@@ -1,0 +1,108 @@
+#ar{
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px #000;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#ve{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    
+} 
+#one2{
+    height: 100%;
+    width: 35%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+#one1{
+    height: 100%;
+    width: 65%;
+    margin-top: 150px;
+}
+span{
+    color: rgb(201, 63, 12);
+}
+.Navbar{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 9px 5%;
+    margin-top: 0px;
+    word-spacing: 20px;
+}
+.logoname{
+    width: 130px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+.ul .li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.moonicone{
+    width: 45px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.dark .Navbar{
+    background: #000;
+    color: #fff;
+}
+.dark #ve{
+    color: #fff;
+}
+.dark #ar{
+    box-shadow: 0px 0px 10px #fff;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.dark a{
+    color: #fff;
+}
+.hetag{
+    border-style: outset;
+    box-shadow: 0px 0px 8px #000;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(201, 63, 12);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+   color:  rgb(201, 63, 12);
+}
+a:hover:after{
+    width: 100%;
+}
+a:active{
+    color: rgb(201, 63, 12);
+}
+.dark span{
+    color: rgb(201, 63, 12);
+}

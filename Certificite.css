@@ -1,0 +1,97 @@
+.cer{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px #fff;
+}
+.cera{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px #fff;
+}
+.cerb{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px #fff;
+}
+.cerc{
+    height: 1000px;
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0px 0px 20px #fff;
+}
+.light .cerc{
+    box-shadow: 0px 0px 20px #000;
+}
+.light .cer{
+    box-shadow: 0px 0px 20px #000;
+}
+.light .cera{
+    box-shadow: 0px 0px 20px #000;
+}
+.light .cerb{
+    box-shadow: 0px 0px 20px #000;
+}
+span{
+    color: rgb(201, 63, 12);
+}
+.spanm{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    margin-left: 30px;
+    
+}
+.social1{
+    height: 40px;
+    width: 40px; 
+    border-radius: 700px; 
+
+}
+.social2{
+    height: 40px;
+    width: 40px;  
+    border-radius: 700px; 
+}
+.social3{
+    height:40px;
+    width: 40px; 
+    border-radius: 700px;  
+}
+.social4{
+    height: 40px;
+    width: 40px; 
+    border-radius: 700px;  
+}
+.social5{
+    height: 40px;
+    width: 40px;  
+    border-radius: 700px; 
+}
+.social6{
+    height: 40px;
+    width: 40px; 
+    border-radius: 700px; 
+}
+.socil{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    text-align: right;
+    margin-top: 50px;
+    
+}
+#h1{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sociallink{
+    background-color: rgb(201, 63, 12);
+}
